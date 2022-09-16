@@ -1,4 +1,4 @@
-# Dashboard template.
+# TODO Shuffle APP (React + Redux + Typescript).
 [DEMO LINK](https://todo-shuffle.com/)
 
 ## Description
