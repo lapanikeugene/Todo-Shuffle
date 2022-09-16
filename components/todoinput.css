@@ -1,0 +1,45 @@
+#todo-input{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#todo-input > input{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: var(--border-bottom);
+    width: 80%;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  #todo-input > input:hover{
+    border: none;
+    border-bottom: var(--border-bottom);
+    outline: none;
+  }
+  #todo-input > input:focus
+  {
+    border: none;
+    border-bottom: var(--border-bottom);
+    outline: none;
+  }
+  
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gold;
+    opacity: 0.5; /* Firefox */
+    font-size: 0.7em;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: gold;
+    font-size: 0.7em;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: gold;
+    font-size: 0.7em;
+  }

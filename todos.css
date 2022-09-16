@@ -1,0 +1,10 @@
+#todos{
+    width: 100%;
+  /*  max-width: min(600px,70vw);*/
+  font-size: 1.2em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+

@@ -1,0 +1,37 @@
+span[class|="cb"]{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 2em;
+
+    cursor: pointer;
+    box-shadow: 0 3px 0 #7d7d7d;
+    font-weight: bolder;
+    color: darkslategrey;
+   text-transform: capitalize;
+
+}
+
+span[class|="cb"] > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+span[class|="cb"] :hover{
+    background-color: #015eff;
+    box-shadow: 0 2px 0 #003ea9;
+    color: white;
+    border-radius: 5px;
+}
+span[class|="cb"]:active{
+    transform: translateY(2px);
+}
+.cb-next{
+    margin-left:1em;
+}
+.cp-pause{
+    margin-right:1em;
+}

@@ -1,0 +1,61 @@
+span[class|="button"] {
+    cursor:pointer;
+    color: darkslategrey;
+    padding:0 7px;
+    background-color: aliceblue;
+    margin: 0;
+    height: 100%;
+    display: inline-block;
+    box-shadow: 0 2px 0 #7d7d7d;
+}
+span[class|="button"]:hover{
+    color: white;
+  
+}
+/* disabled button*/
+.button-disabled{
+    background-color: #7d7d7d!important;
+    color: rgb(60, 60, 60)!important;
+    box-shadow: 0px 3px 0  #1c1c1c!important;
+
+}
+.button-disabled:hover{
+    background-color: #a5a5a5!important;
+}
+/* :active when clicked. */
+span[class|="button"]:active{
+    color: white;
+    box-shadow: 0 0 0 #7d7d7d;
+    transform: translateY(3px);
+}
+
+.button-easy{
+    border-radius: 5px 0  0 5px;
+
+}
+.button-easy:hover{
+    background-color: #aeff00;
+    box-shadow: 0 2px 0 #5e8902;
+
+}
+
+.button-medium{
+   border-left:2px solid #7d7d7d!important;
+   border-right:2px solid #7d7d7d!important;
+ 
+}
+
+.button-medium:hover {
+  
+    background-color: #015eff;
+    box-shadow: 0 2px 0 #003ea9;
+}
+.button-hard{
+    border-radius: 0 5px 5px 0;
+}
+.button-hard:hover{
+ 
+    background-color:#ff133a;
+    box-shadow: 0 2px 0 #970c23;
+ 
+}
